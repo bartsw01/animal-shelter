@@ -1,11 +1,22 @@
+.col2 {
+  column-count: 3;
+
+}
 .column {
-  width: 30%;
-  float: left;
   border: 2px solid green;
   padding: 4px
-  margin: 101 px;
+  margin: 12px;
   background-color: yellow;
 }
 body {
   background-color: tan;
+}
+.column p {
+  color: blue;
+}
+
+.column ul {
+  color: pink;
+  font-style: italics;
+  font-size: 20px;
 }
